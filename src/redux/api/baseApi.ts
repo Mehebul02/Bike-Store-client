@@ -1,6 +1,7 @@
 import { BaseQueryApi, BaseQueryFn, createApi, DefinitionType, FetchArgs, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { RootState } from "../store";
 import { toast } from 'sonner';
+import { logout, setUser } from "../features/auth/authSlice";
 
 
 

@@ -1,10 +1,16 @@
+import Header from "./components/header/Header";
+import { useGetAllProductQuery } from "./redux/features/product/productApi"
 
 function App() {
+
+
+  const {data} = useGetAllProductQuery(undefined)
+  console.log(data);
   
   return (
-    <div className="flex justify-center items-center h-screen">
-      <h1 className="text-4xl text-amber-600">Bike store Application</h1>
-   
+    <div className=" h-screen">
+     
+   <Header/>
     </div>
   )
 }
