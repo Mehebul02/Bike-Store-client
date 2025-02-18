@@ -98,3 +98,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .headerTopMenu {
+    @apply flex items-center gap-x-1 border-r-[1px] border-r-gray-400 px-4;
+  }
+}
