@@ -1,3 +1,4 @@
+import Banner from "./components/Banner/Banner";
 import Header from "./components/header/Header";
 import { useGetAllProductQuery } from "./redux/features/product/productApi"
 
@@ -11,6 +12,7 @@ function App() {
     <div className=" h-screen">
      
    <Header/>
+   <Banner/>
     </div>
   )
 }

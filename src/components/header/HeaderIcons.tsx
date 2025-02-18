@@ -14,7 +14,7 @@ const HeaderIcons = () => {
             <Link to='/favorite' className='text-2xl relative'>
                     <MdOutlineFavoriteBorder />
                     <span className='iconDesign'>
-                        {/* {favorite?.length>0 ? favorite.length:'0'} */}
+                       {/* {favorite?.length>0 ? favorite.length:'0'} */}
                     </span>
                     </Link>
 
