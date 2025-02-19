@@ -1,5 +1,6 @@
 import Banner from "./components/Banner/Banner";
 import Header from "./components/header/Header";
+import Footer from "./components/ui/footer/Footer";
 import { useGetAllProductQuery } from "./redux/features/product/productApi"
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
      
    <Header/>
    <Banner/>
+   <Footer/>
     </div>
   )
 }
