@@ -1,14 +1,10 @@
 import Banner from "../Banner/Banner";
-import Header from "../header/Header";
-import ProductCard from "../products/ProductCard";
-
+import HomeProduct from "../homeProduct/HomeProduct";
 const Home = () => {
     return (
         <div>
-
             <Banner />
-            <ProductCard />
-           
+            <HomeProduct/>
         </div>
     );
 };

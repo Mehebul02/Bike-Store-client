@@ -1,7 +1,7 @@
 
 import { useSelector } from "react-redux";
 // import { Product, StateType } from "../../type";
-import {IProduct,StateType } from "../../../types/product"
+import { IProduct, StateType } from "../../../types/product"
 import PriceFormate from "./PriceFormate";
 import { useEffect, useState } from "react";
 
