@@ -5,6 +5,7 @@ import { IProduct } from 'types/product';
 import { useGetAllProductQuery } from "../../redux/features/product/productApi";
 import AddToCart from './AddToCart'
 import AddToCartButton from './AddToCart';
+import Sidebar from './Sidebar';
 const ProductCard = ({product}) => {
   
     return (
@@ -18,7 +19,7 @@ const ProductCard = ({product}) => {
             }}> <img  src={product.images[0]} alt="productImage" width={500} height={500} priority={true} className="w-full h-64 object-contain hover:scale-110 duration-300"></img> </Lin> */}
            <img  src={bg} alt="productImage" width={500} height={500}  className="w-full h-64 object-contain hover:scale-110 duration-300"></img> 
            {/* sidebar  */}
-           {/* <Sideba product ={bg}/> */}
+           <Sidebar/>
             <p className="absolute top-2 right-2 bg-logoColor text-white px-3 py-1 text-xs rounded-md">
                 {/* {product?.discountPercentage} */}
                 77$

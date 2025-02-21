@@ -5,6 +5,7 @@ import AddToCartButton from '../../pages/products/AddToCart';
 import { useGetAllProductQuery } from "../../redux/features/product/productApi";
 import bg from '../../assets/images/banner/bg1.png'
 import { Link } from "react-router-dom";
+import Sidebar from "../../pages/products/Sidebar"
 const HomeProduct = () => {
     const {data:productData, isFetching} = useGetAllProductQuery({limit:6})
     // const productsToDisplay = productData?.data?.slice(0, 3);
@@ -23,7 +24,7 @@ const HomeProduct = () => {
                 }}> <img  src={product.images[0]} alt="productImage" width={500} height={500} priority={true} className="w-full h-64 object-contain hover:scale-110 duration-300"></img> </Lin> */}
                <img  src={bg} alt="productImage" width={500} height={500}  className="w-full h-64 object-contain hover:scale-110 duration-300"></img> 
                {/* sidebar  */}
-               {/* <Sideba product ={bg}/> */}
+               <Sidebar/>
                 <p className="absolute top-2 right-2 bg-logoColor text-white px-3 py-1 text-xs rounded-md">
                     {/* {product?.discountPercentage} */}
                     77$
