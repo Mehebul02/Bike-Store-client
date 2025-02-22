@@ -1,11 +1,8 @@
 
 import bg from '../../assets/images/banner/bg1.png'
-import ProductPrice from "./ProductPrice";
-import { IProduct } from 'types/product';
-import { useGetAllProductQuery } from "../../redux/features/product/productApi";
-import AddToCart from './AddToCart'
 import AddToCartButton from './AddToCart';
 import Sidebar from './Sidebar';
+
 const ProductCard = ({product}) => {
   
     return (
