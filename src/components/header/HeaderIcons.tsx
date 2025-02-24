@@ -1,10 +1,7 @@
 
 import { BiShoppingBag } from 'react-icons/bi';
 import { MdOutlineFavoriteBorder } from 'react-icons/md';
-import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import {StateType } from '../../../types/headerType'
-
 const HeaderIcons = () => {
 
     // const {cart,favorite} = useSelector((state:StateType)=>state?.onlineShop)
